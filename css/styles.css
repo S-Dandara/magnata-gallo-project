@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #F6EEE0;  
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(66, 43, 4);
+}
+
+header > img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: rgb(228, 183, 160);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+nav ul:hover {
+    background-color: rgb(228, 183, 160, 0.5);
+    transition: 0.8s;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: rgb(131, 92, 26);
+    font-weight: 500;
+}
+
+a:visited {
+    color: rgb(196, 137, 36);
+    font-weight: 500;
+}
+
+a:hover {
+    color: rgb(131, 92, 26);
+    font-weight: 500;
+    text-shadow:
+        0 0 1rem rgb(197, 138, 35),
+        0 0 2rem rgb(92, 44, 3);
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Kaisei Opti', serif;
+}
+
+.hero {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgb(204, 184, 149);
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-blend-mode:soft-light;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+.hero p {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Kaisei Opti', serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article img {
+    width: 80%;
+    border-radius: 0.5rem;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(204, 184, 149);
+    border-radius: 1rem;
+    min-width: 16rem;
+    max-width: 20rem;
+}
+
+.item p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    display: block;
+    width: 12rem;
+    margin-top: auto;
+    padding-left: 1rem;
+    padding-bottom: 0.4rem;
+    padding-top: 0.1rem;
+    align-items: bottom;
+}
+
+.footerlogo {
+    border-bottom: rgb(131, 92, 26) solid 2px;
+    border-left: rgb(196, 137, 36) solid 2px;
+}
+
+.copyright {
+    border-top: rgb(131, 92, 26) solid 2px;
+    border-right: rgb(196, 137, 36) solid 2px;
+    text-align: right;
+    padding-right: 1rem;
+}
