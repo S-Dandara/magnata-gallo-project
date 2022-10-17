@@ -116,6 +116,11 @@ article img {
     max-width: 20rem;
 }
 
+.item:hover {
+    transform: scale(90%);
+    transition: 0.5s;
+}
+
 .item p {
     width: 90%;
     margin-left: auto;
